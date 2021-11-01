@@ -1,15 +1,12 @@
 @extends('layouts.main')
 
-@section('title', 'HDC Events')
+@section('title', 'Gabriel fernandes')
 
 @section('content')
 
-<div id="search-container" class="col-md-12">
-    <h1>Busque um evento</h1>
-    <form action="/" method="GET">
-        <input type="text" id="search" name="search" class="form-control" placeholder="Procurar...">
-    </form>
-</div>
+<x-home-page/>
+
+
 <div id="events-container" class="col-md-12">
     @if($search)
     <h2>Buscando por: {{ $search }}</h2>
@@ -17,6 +14,7 @@
     <h2>Próximos Eventos</h2>
     <p class="subtitle">Veja os eventos dos próximos dias</p>
     @endif
+
     <div id="cards-container" class="row">
         @foreach($events as $event)
         <div class="card col-md-3">
@@ -35,6 +33,9 @@
             <p>Não há eventos disponíveis</p>
         @endif
     </div>
+
 </div>
+
+
 
 @endsection
