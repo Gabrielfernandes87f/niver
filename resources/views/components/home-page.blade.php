@@ -1,7 +1,6 @@
 <div>
     <!-- If you do not have a consistent goal in life, you can not live it in a consistent way. - Marcus Aurelius -->
-
-
+    
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -19,8 +18,7 @@
                   <p><a class="btn btn-lg btn-primary" href="#" role="button">CasteloSpetus</a></p>
                 </div>
               </div>
-            </div>
-    
+            </div>   
             <div class="carousel-item">
                 <img src="/assets-pages/eu.jpg" class="bd-placeholder-img img-fluid" alt="castelo spetus" srcset="">
               <div class="container">

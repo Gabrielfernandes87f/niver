@@ -177,4 +177,22 @@ class EventController extends Controller
 
     }
 
+    public function new() {
+
+        $search = request('search');
+
+        if($search) {
+
+            $events = Event::where([
+                ['title', 'like', '%'.$search.'%']
+            ])->get();
+
+        } else {
+            $events = Event::all();
+        }        
+    
+        return view('new',['events' => $events, 'search' => $search]);
+
+    }
+
 }

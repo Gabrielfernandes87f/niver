@@ -7,6 +7,7 @@
 <x-home-page/>
 
 
+
 <div id="events-container" class="col-md-12">
     @if($search)
     <h2>Buscando por: {{ $search }}</h2>
