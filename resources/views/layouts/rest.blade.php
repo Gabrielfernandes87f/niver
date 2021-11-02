@@ -192,16 +192,16 @@
 
     </div>
 
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright © 2021 Web developer | Powered by Gabriel Fernandes</small></div>
+      </div>
+    </footer>
   </main>
-  
-  
-  
-      <!-- FOOTER -->
-      <footer class="container">
-        <div class="copyright py-4 text-center text-black">
-          <div class="container"><small>Copyright © 2021 Web developer | Powered by Gabriel Fernandes</small></div>
-        </div>
-      </footer>
+
+
   
 </body>
 
