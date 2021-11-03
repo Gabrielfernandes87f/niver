@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
   <meta charset="utf-8">
@@ -11,21 +11,21 @@
 
   <!-- Favicons -->
   
-  <link href="assets01/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/assets01/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets01/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets01/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets01/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets01/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets01/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets01/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="/assets01/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets01/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets01/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets01/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets01/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets01/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets01/css/style.css" rel="stylesheet">
+  <link href="/assets01/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Knight - v4.3.0
@@ -132,22 +132,22 @@
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
                 <figure>
-                  <img src="assets01/img/featured-1.png" alt="" class="img-fluid">
+                  <img src="/assets01/img/featured-1.png" alt="" class="img-fluid">
                 </figure>
               </div>
               <div class="tab-pane" id="tab-2">
                 <figure>
-                  <img src="assets01/img/featured-2.png" alt="" class="img-fluid">
+                  <img src="/assets01/img/featured-2.png" alt="" class="img-fluid">
                 </figure>
               </div>
               <div class="tab-pane" id="tab-3">
                 <figure>
-                  <img src="assets01/img/featured-3.png" alt="" class="img-fluid">
+                  <img src="/assets01/img/featured-3.png" alt="" class="img-fluid">
                 </figure>
               </div>
               <div class="tab-pane" id="tab-4">
                 <figure>
-                  <img src="assets01/img/featured-4.png" alt="" class="img-fluid">
+                  <img src="/assets01/img/featured-4.png" alt="" class="img-fluid">
                 </figure>
               </div>
             </div>
@@ -293,7 +293,7 @@
                 <p>
                   
                 </p>
-                <img src="assets01/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="/assets01/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Amanda Luisa</h3>
                 <h4>Modelo &amp; Programadora</h4>
               </div>
@@ -304,7 +304,7 @@
                 <p>
                   
                 </p>
-                <img src="assets01/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="/assets01/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Aysa</h3>
                 <h4>Advogada empresarial</h4>
               </div>
@@ -315,7 +315,7 @@
                 <p>
                   
                 </p>
-                <img src="assets01/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="/assets01/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Renally chagas</h3>
                 <h4>Empresaria &amp; Bailarina &amp; Personal</h4>
               </div>
@@ -326,7 +326,7 @@
                 <p>
                  
                 </p>
-                <img src="assets01/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="/assets01/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Jessika Santos</h3>
                 <h4>Empresaria</h4>
               </div>
@@ -653,15 +653,15 @@
 
 
 
-  <script src="assets01/vendor/aos/aos.js"></script>
-  <script src="assets01/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets01/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets01/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets01/vendor/php-email-form/validate.js"></script>
-  <script src="assets01/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets01/vendor/aos/aos.js"></script>
+  <script src="/assets01/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets01/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets01/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets01/vendor/php-email-form/validate.js"></script>
+  <script src="/assets01/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets01/js/main.js"></script>
+  <script src="/assets01/js/main.js"></script>
 
 
 </body>
