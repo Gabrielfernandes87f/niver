@@ -53,12 +53,11 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="http://127.0.0.1:8000#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#about">Sobre mim</a></li>
-          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#services">Serviços</a></li>
-          <li><a class="nav-link scrollto " href="http://127.0.0.1:8000#portfolio">Fotos</a></li>
-          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#">Publicaçoes</a></li>
-          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#footer">contato</a></li>
+          <li><a class="nav-link scrollto active" href="https://gabrielfernandesweb.online#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#about">Sobre mim</a></li>
+          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#services">Serviços</a></li>
+          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#public">Publicaçoes</a></li>
+          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#footer">contato</a></li>
           @auth
           <li><a class="nav-link scrollto" href="/events/create">Criar publicação</a></li>
           <li> <form action="/logout" method="POST">
