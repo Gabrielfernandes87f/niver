@@ -665,6 +665,13 @@
 
       <div class="container">
 
+        <div class="row footer-newsletter justify-content-center">
+          <div class="col-lg-6">
+            <h4><a href="https://www.meuevento.tech"target="_blank">www.meuevento.tech</a></h1>
+            <p>Visite minha landing page</p>
+          </div>
+        </div>
+
         <div class="social-links">
           <a href="https://wa.me/message/5N2F3F7WSTGCN1"target="_blank" class="twitter"><i class="bx bxl-whatsapp"></i></a>
           <a href="https://github.com/Gabrielfernandes87f"target="_blank" class="facebook"><i class="bx bxl-github"></i></a>
