@@ -65,7 +65,7 @@
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
             <div class="image">
-              <img src="assets01/img/sobre.jpg" class="img-fluid" alt="">
+              <img src="/assets01/img/sobre.jpg" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-left">
