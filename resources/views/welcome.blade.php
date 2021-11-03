@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>B-day</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="Gabriel Fernandes, Niver, Bday, Parabéns!!!,  " />
+  <meta name="author" content="Gabriel" />
 
   <!-- Favicons -->
   
@@ -48,7 +48,40 @@
   </section><!-- End Hero -->
 
   <!-- ======= Header ======= -->
-  <x-navbar/>
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="http://127.0.0.1:8000#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#about">Sobre mim</a></li>
+          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#services">Serviços</a></li>
+          <li><a class="nav-link scrollto " href="http://127.0.0.1:8000#portfolio">Fotos</a></li>
+          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#">Publicaçoes</a></li>
+          <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#footer">contato</a></li>
+          @auth
+          <li><a class="nav-link scrollto" href="/events/create">Criar publicação</a></li>
+          <li> <form action="/logout" method="POST">
+            @csrf
+            <a href="/logout" 
+              class="nav-link" 
+              onclick="event.preventDefault();
+              this.closest('form').submit();">
+              Sair
+            </a>
+          </form>
+          </li>
+          @endauth
+          @guest
+          <li><a class="nav-link scrollto" href="/login">login</a></li>
+          @endguest
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
   
 
   <main id="main">
@@ -633,11 +666,11 @@
       <div class="container">
 
         <div class="social-links">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://wa.me/message/5N2F3F7WSTGCN1"target="_blank" class="twitter"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://github.com/Gabrielfernandes87f"target="_blank" class="facebook"><i class="bx bxl-github"></i></a>
+          <a href="https://instagram.com/gabriel.fernandes.f?utm_medium=copy_link"target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-discord"></i></a>
+          
         </div>
 
       </div>
