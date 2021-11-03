@@ -22,13 +22,13 @@
               id="event-submit"
               onclick="event.preventDefault();
               this.closest('form').submit();">
-              Confirmar Presença
+              Confirmar Presença nesta foto
             </a>
           </form>
         @else
-          <p class="already-joined-msg">Você já está participando deste evento!</p>
+          <p class="already-joined-msg">Você já está participando desta publicação!</p>
         @endif
-        <h3>Sobre o evento:</h3>
+        <h3>Sobre a festa:</h3>
         <ul id="items-list">
         @foreach($event->items as $item)
           <li><ion-icon name="play-outline"></ion-icon> <span>{{ $item }}</span></li>
@@ -36,7 +36,7 @@
         </ul>
       </div>
       <div class="col-md-12" id="description-container">
-        <h3>Sobre o evento:</h3>
+        <h3>Sobre a festa:</h3>
         <p class="event-description">{{ $event->description }}</p>
       </div>
     </div>
