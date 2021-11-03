@@ -19,7 +19,8 @@
               <li><a class="nav-link scrollto active" href="http://127.0.0.1:8000#hero">Home</a></li>
               <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#about">Sobre mim</a></li>
               <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#services">Serviços</a></li>
-              <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#public">Publicaçoes</a></li>
+              <li><a class="nav-link scrollto " href="http://127.0.0.1:8000#portfolio">Fotos</a></li>
+              <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#">Publicaçoes</a></li>
               <li><a class="nav-link scrollto" href="http://127.0.0.1:8000#footer">contato</a></li>
               @auth
               <li><a class="nav-link scrollto" href="/events/create">Criar publicação</a></li>
@@ -54,5 +55,5 @@
       <script src="/assets01/vendor/swiper/swiper-bundle.min.js"></script>
     
       <!-- Template Main JS File -->
-      <script src="assets01/js/main.js"></script>
+      <script src="/assets01/js/main.js"></script>
 </div>
