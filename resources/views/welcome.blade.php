@@ -279,32 +279,33 @@
        --}}
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="public" class="portfolio">
+    <section id="public" class="portfolio mb-4 mt-4">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
           <h2>Fotos da festa</h2>
-          <p>Se nao sair bonito tudo bem, o que importa é ter saúde.😜</p>
-        </div>
+          <p class="mb-4">Se nao sair bonito tudo bem, o que importa é ter saúde.😜</p>
 
-
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          @foreach($events as $event)
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="/img/events/{{ $event->image }}" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>{{ date('d/m/Y', strtotime($event->date)) }}</h4>
-                <p>{{ count($event->users) }}</p>
-                <div class="portfolio-links">
-                  <a href="/events/{{ $event->id }}"title="Mais detalhes"><i class="bx bx-link"></i></a>
+          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+            @foreach($events as $event)
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="/img/events/{{ $event->image }}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>{{ date('d/m/Y', strtotime($event->date)) }}</h4>
+                  <p>{{ count($event->users) }}</p>
+                  <div class="portfolio-links">
+                    <a href="/events/{{ $event->id }}"title="Mais detalhes"><i class="bx bx-link"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
+            @endforeach
           </div>
-          @endforeach
         </div>
+
+
+
 
         
       </div>
