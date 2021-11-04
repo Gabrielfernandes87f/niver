@@ -7,7 +7,7 @@
 
   <title>B-day</title>
   <meta name="description" content="Gabriel Fernandes, Niver, Bday, Parabéns!!!"/>
-  <meta name="author" content="Gabriel" />
+  <meta name="author" content="Gabriel Fernandes" />
 
   <!-- Favicons -->
   
@@ -362,7 +362,7 @@
               </div>
             </div><!-- End testimonial item -->
 
-            
+
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
