@@ -283,7 +283,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Publições</h2>
+          <h2>Publicações</h2>
           <p class="mb-4">Se não sair bonito tudo bem, o que importa é ter saúde.😜</p>
 
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
