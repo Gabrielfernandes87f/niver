@@ -59,6 +59,7 @@
           <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#public">Publicaçoes</a></li>
           <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online#footer">contato</a></li>
           @auth
+          <li><a class="nav-link scrollto" href="https://gabrielfernandesweb.online/dashboard">Perfil</a></li>
           <li><a class="nav-link scrollto" href="/events/create">Criar publicação</a></li>
           <li> <form action="/logout" method="POST">
             @csrf
