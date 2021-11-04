@@ -290,7 +290,7 @@
             @foreach($events as $event)
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="/img/events/{{ $event->image }}" class="img-fluid" alt="">
+                <img src="/img/events/{{ $event->image }}" width="300" height="300"class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>{{ date('d/m/Y', strtotime($event->date)) }}</h4>
                   <p>{{ count($event->users) }}</p>
