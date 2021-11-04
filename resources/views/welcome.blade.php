@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>B-day</title>
-  <meta name="description" content="Gabriel Fernandes, Niver, Bday, Parabéns!!!,  " />
+  <meta name="description" content="Gabriel Fernandes, Niver, Bday, Parabéns!!!"/>
   <meta name="author" content="Gabriel" />
 
   <!-- Favicons -->
@@ -314,7 +314,7 @@
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
         <div class="quote-icon">
-          <i class="bx bxs-quote-right"></i>
+         
         </div>
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -333,23 +333,25 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <p>
-                  
-                </p>
-                <img src="/assets01/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Aysa</h3>
+                <img src="/assets01/img/testimonials/Aysa.jpeg" class="testimonial-img" alt="">
+                <h3>Aysa Gusmão</h3>
                 <h4>Advogada empresarial</h4>
+                <a href="https://instagram.com/aysagsadvs?utm_medium=copy_link"target="_blank"><i class="bx bxl-instagram"></i></a>
+                <p>
+                  Poucas vezes temos a chance de encontrar pessoas de bom coração no mundo, pessoas que veem o mundo por uma perspectiva diferente, pessoas com um olhar sensível a tudo que acontece ao seu redor, com empatia e delicadeza para tentar se colocar no lugar do próximo e você é um desses seres de luz, que Deus conserve o seu coração assim e que você continue  sendo luz é diferença no mundo. Parabéns pelo seu dia🌷🌷🌷
+                </p>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <img src="/assets01/img/testimonials/isabelle.jpeg" class="testimonial-img" alt="">
+                <h3>Isabelle</h3>
+                <a href="https://instagram.com/its.diniz?utm_medium=copy_link"target="_blank"><i class="bx bxl-instagram"></i></a>
                 <p>
-                  
+                  Muitos não se dão conta, mas o significado da palavra amizade é bem complexo. Amigo é aquela pessoa que você sabe que pode contar pra tudo. Alguém que te deixa a vontade pra ser você mesmo. Alguém que celebra tuas conquistas e te dá a mão nos momentos difíceis… 
+                  Eu não tenho muitos amigos… é muito difícil achar amigos de verdade. Mas sou feliz de chamar Gabriel de amigo e sou grata por todos os momentos compartilhados e mais ainda por nossa amizade continuar a mesma apesar da distância.
                 </p>
-                <img src="/assets01/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Renally chagas</h3>
-                <h4>Empresaria &amp; Bailarina &amp; Personal</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -358,7 +360,7 @@
                 <p>
                  
                 </p>
-                <img src="/assets01/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="/assets01/img/testimonials/testimonials-4.jpeg" class="testimonial-img" alt="">
                 <h3>Jessika Santos</h3>
                 <h4>Empresaria</h4>
               </div>

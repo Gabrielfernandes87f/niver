@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://gabrielfernandesweb.online'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -67,7 +67,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Sao_Paulo',
+
 
     /*
     |--------------------------------------------------------------------------
