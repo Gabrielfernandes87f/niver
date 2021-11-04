@@ -334,7 +334,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <a href="https://instagram.com/aysagsadvs?utm_medium=copy_link">
+                <a href="https://instagram.com/aysagsadvs?utm_medium=copy_link" target="_blank">
                   <img src="/assets01/img/testimonials/Aysa.jpeg" class="testimonial-img" alt="">
                 </a>
                 <h3>Aysa Gusmão</h3>
@@ -348,7 +348,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <a href="https://instagram.com/its.diniz?utm_medium=copy_link">
+                <a href="https://instagram.com/its.diniz?utm_medium=copy_link" target="_blank">
                   <img src="/assets01/img/testimonials/isabelle.jpeg" class="testimonial-img" alt="">
                 </a>
                 <h3>Isabelle</h3>
