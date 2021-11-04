@@ -108,10 +108,10 @@
               <ul>
                 <li><i class="bx bx-check-double"></i>Estudei sobre investimentos e ainda lucrei muito no mercado financeiro.</li>
                 <li><i class="bx bx-check-double"></i>Estudei muito sobre varias tecnologias até conseguir botar meu site no ar.</li>
-                <li> Tudo é impossível até alguém ir lá e conseguir. Muita gente nem se importe de verdade se você realmente está bem. Apenas gosta de saber da vida dos outros. Eu tirei esse ano apenas pra estudar, sabia desde do inicio que ficar sem trabalhar ia ser muito difícil. Mas a gente quando quer ir mais longe precisamos dar dois passos pra trás pra pegar impulso e conseguir ir além. </li>
+                <li> Tudo é impossível até alguém ir lá e conseguir. Muita gente nem se importa de verdade se você realmente está bem, apenas gosta de saber da vida dos outros. Eu tirei esse ano apenas pra estudar, sabia desde do inicio que ficar sem trabalhar ia ser muito difícil, mas a gente quando quer ir mais longe precisamos dar dois passos pra trás pra pegar impulso e conseguir ir além. </li>
               </ul>
               <p>
-                Cada um é capaz de coisas incríveis, basta acreditar, basta manter o foco, persistir e ter constância no que está determinando.  Antes da pandemia eu saia, viajava muito. Esse ano rejeitei algumas ofertas de trabalha. Porque eu sei onde quero chega. E você, por quanto tem vendido os seus sonhos? 
+                Cada um é capaz de coisas incríveis, basta acreditar, manter o foco, persistir e ter constância. Antes da pandemia eu saia, viajava muito. Esse ano rejeitei algumas ofertas de trabalha porque eu sei onde quero chega e você, por quanto tem vendido os seus sonhos? 
               </p>
             </div>
           </div>
@@ -144,7 +144,7 @@
             <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
               <i class="bx bx-images"></i>
               <h4>Engenharia de software</h4>
-              <p>Comecei a realmente estudar programação em março de 2021. Esse ano eu evoluir muito nos estudos. Minha meta é ate o ano que vem está dominando programação web e mobile e fluente no inglês.</p>
+              <p>Comecei a realmente estudar programação em março de 2021. Esse ano eu evoluir muito nos estudos. Minha meta é até o ano que vem está dominando programação web, mobile e fluente no inglês.</p>
             </div>
           </div>
           <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets01/img/services.png");' data-aos="fade-left" data-aos-delay="100"></div>
@@ -283,14 +283,14 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Fotos da festa</h2>
-          <p class="mb-4">Se nao sair bonito tudo bem, o que importa é ter saúde.😜</p>
+          <h2>Publi</h2>
+          <p class="mb-4">Se não sair bonito tudo bem, o que importa é ter saúde.😜</p>
 
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
             @foreach($events as $event)
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="/img/events/{{ $event->image }}" width="300" height="300"class="img-fluid" alt="">
+                <img src="/img/events/{{ $event->image }}" width="400" height="400"class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>{{ date('d/m/Y', strtotime($event->date)) }}</h4>
                   <p>{{ count($event->users) }}</p>
