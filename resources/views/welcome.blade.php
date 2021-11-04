@@ -320,18 +320,7 @@
 
         <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  
-                </p>
-                <img src="/assets01/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Amanda Luisa</h3>
-                <h4>Modelo &amp; Programadora</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
+            
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <a href="https://instagram.com/aysagsadvs?utm_medium=copy_link" target="_blank">
@@ -346,6 +335,8 @@
               </div>
             </div><!-- End testimonial item -->
 
+            
+            
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <a href="https://instagram.com/its.diniz?utm_medium=copy_link" target="_blank">
@@ -359,7 +350,19 @@
                 </p>
               </div>
             </div><!-- End testimonial item -->
+            
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  
+                </p>
+                <img src="/assets01/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Amanda Luisa</h3>
+                <h4>Modelo &amp; Programadora</h4>
+              </div>
+            </div><!-- End testimonial item -->
 
+            
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>
