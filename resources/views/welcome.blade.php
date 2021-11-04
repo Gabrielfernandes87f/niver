@@ -334,7 +334,9 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="/assets01/img/testimonials/Aysa.jpeg" class="testimonial-img" alt="">
+                <a href="https://instagram.com/aysagsadvs?utm_medium=copy_link">
+                  <img src="/assets01/img/testimonials/Aysa.jpeg" class="testimonial-img" alt="">
+                </a>
                 <h3>Aysa Gusmão</h3>
                 <h4>Advogada empresarial</h4>
                 <a href="https://instagram.com/aysagsadvs?utm_medium=copy_link"target="_blank"><i class="bx bxl-instagram"></i></a>
@@ -346,7 +348,9 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="/assets01/img/testimonials/isabelle.jpeg" class="testimonial-img" alt="">
+                <a href="https://instagram.com/its.diniz?utm_medium=copy_link">
+                  <img src="/assets01/img/testimonials/isabelle.jpeg" class="testimonial-img" alt="">
+                </a>
                 <h3>Isabelle</h3>
                 <a href="https://instagram.com/its.diniz?utm_medium=copy_link"target="_blank"><i class="bx bxl-instagram"></i></a>
                 <p>
