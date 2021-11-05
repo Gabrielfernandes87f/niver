@@ -40,9 +40,9 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-        <p>05/11/2021</p>
+        <p><strong>05/11/2021</strong></p>
       <h1 data-aos="zoom-in">Gabriel Fernandes</h1>
-      <h2 data-aos="fade-up">Hoje vamos celebrar a vida, Sejam todos bem vindos!</h2>
+      <h2 data-aos="fade-up"><strong>Hoje vamos celebrar a vida, Sejam todos bem vindos!</strong></h2>
       <a data-aos="fade-up" data-aos-delay="200" href="/events/create" class="btn-get-started scrollto">Poste uma foto comigo</a>
     </div>
   </section><!-- End Hero -->
@@ -354,24 +354,17 @@
             
             <div class="swiper-slide">
               <div class="testimonial-item">
+                <a href="https://instagram.com/leiliane_goncalo?utm_medium=copy_link" target="_blank">
+                  <img src="/assets01/img/testimonials/liany.jpeg" class="testimonial-img" alt="">
+                </a>
+                <h3>Liany</h3>
+                <a href="https://instagram.com/leiliane_goncalo?utm_medium=copy_link"target="_blank"><i class="bx bxl-instagram"></i></a>
                 <p>
-                  
+                  Feliz aniversário doido da minha vida!
+                  Que Deus te abençoe imensamente, te dê muitos anos de vida, saúde e sabedoria.
+                  Estarei sempre aqui de 9 em 9 anos (entendemos kkk)
+                  Enfim, parabéns! 🥳❤
                 </p>
-                <img src="/assets01/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Amanda Luisa</h3>
-                <h4>Modelo &amp; Programadora</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                 
-                </p>
-                <img src="/assets01/img/testimonials/testimonials-4.jpeg" class="testimonial-img" alt="">
-                <h3>Jessika Santos</h3>
-                <h4>Empresaria</h4>
               </div>
             </div><!-- End testimonial item -->
 

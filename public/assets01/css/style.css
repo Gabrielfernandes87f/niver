@@ -380,13 +380,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   margin: 10px;
   color: #fff;
-  background: #7cc576;
+  background: #0d3709;
 }
 
 #hero .btn-get-started:hover {
   transition: 0.5s;
   background: #fff;
-  color: #7cc576;
+  color: #011000;
 }
 
 @media (min-width: 1024px) {
@@ -1650,7 +1650,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #7cc576;
+  background: #0d3709;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1658,7 +1658,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #5ab652;
+  background: ##0d3709;
 }
 
 #footer .footer-top .social-links {
@@ -1668,7 +1668,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #7cc576;
+  background: #0d3709;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1681,9 +1681,10 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #5ab652;
-  color: #fff;
+  background: #fff;
+  color: #0d3709;
   text-decoration: none;
+  transition: 1.300s;
 }
 
 #footer .footer-bottom {
@@ -1703,3 +1704,12 @@ section {
   font-size: 13px;
   padding-top: 5px;
 }
+.footer-top a {
+  color: #7cc576;;
+}
+
+.footer-top a:hover {
+
+  color: #fff;
+}
+
