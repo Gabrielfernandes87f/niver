@@ -361,9 +361,9 @@
                 <a href="https://instagram.com/leiliane_goncalo?utm_medium=copy_link"target="_blank"><i class="bx bxl-instagram"></i></a>
                 <p>
                   Feliz aniversário doido da minha vida!
-                  Que Deus te abençoe imensamente, te dê muitos anos de vida, saúde e sabedoria.
-                  Estarei sempre aqui de 9 em 9 anos (entendemos kkk)
-                  Enfim, parabéns! 🥳❤
+                  Que Deus te abençoe imensamente, <br/> te dê muitos anos de vida, saúde e sabedoria.
+                  Estarei sempre aqui de 9 em 9 anos <br/> (entendemos kkk)
+                  Enfim, parabéns!🥳❤
                 </p>
               </div>
             </div><!-- End testimonial item -->
